@@ -1,22 +1,24 @@
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #f7f7f9;
-  color: #222;
+  background: #181f2a;
+  color: #f4f6fb;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: #fff;
+  background: #232b3a;
   padding: 2rem 0 1rem 0;
   text-align: center;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #2e3a4d;
+  box-shadow: 0 2px 8px rgba(20,30,50,0.08);
 }
 
 h1 {
   font-size: 2.2rem;
   margin: 0;
   letter-spacing: 1px;
+  color: #6ec1e4;
 }
 
 main {
@@ -26,29 +28,31 @@ main {
 }
 
 .featured-article {
-  background: #e9ecef;
-  border-left: 5px solid #0077cc;
+  background: #232b3a;
+  border-left: 6px solid #6ec1e4;
   padding: 1.5rem 1rem;
   margin-bottom: 2rem;
-  border-radius: 4px;
+  border-radius: 6px;
+  box-shadow: 0 4px 16px rgba(30,60,120,0.10);
 }
 
 .featured-article h2 {
   margin-top: 0;
-  color: #0077cc;
+  color: #6ec1e4;
 }
 
 .regular-article {
-  background: #fff;
-  border: 1px solid #e0e0e0;
+  background: #202736;
+  border: 1px solid #2e3a4d;
   padding: 1rem;
   margin-bottom: 1.5rem;
-  border-radius: 4px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(30,60,120,0.06);
 }
 
 .regular-article h2 {
   margin-top: 0;
-  color: #333;
+  color: #a3e0ff;
 }
 
 .metadata {
@@ -61,38 +65,46 @@ main {
 .metadata li {
   display: inline;
   margin-right: 1.2em;
-  color: #888;
+  color: #b0b9c6;
   font-size: 0.95em;
 }
 
 p {
   margin: 0 0 1rem 0;
   line-height: 1.6;
+  color: #e0e6ef;
 }
 
 a {
-  color: #0077cc;
+  color: #6ec1e4;
   text-decoration: none;
   font-weight: 500;
+  border-bottom: 1px dotted #6ec1e4;
+  transition: color 0.2s;
 }
 
 a:hover {
-  text-decoration: underline;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  background: #6ec1e4;
+  border-radius: 3px;
+  padding: 0 2px;
 }
 
 .more-articles {
   max-width: 700px;
   margin: 2rem auto 2rem auto;
   padding: 1rem;
-  background: #fff;
-  border-top: 1px solid #e0e0e0;
-  border-radius: 0 0 4px 4px;
+  background: #232b3a;
+  border-top: 1px solid #2e3a4d;
+  border-radius: 0 0 6px 6px;
+  box-shadow: 0 2px 8px rgba(30,60,120,0.08);
 }
 
 .more-articles h3 {
   margin-top: 0;
   font-size: 1.2rem;
-  color: #444;
+  color: #6ec1e4;
 }
 
 .more-articles ul {
@@ -103,4 +115,14 @@ a:hover {
 
 .more-articles li {
   margin-bottom: 0.5rem;
+}
+
+.author-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 0.4em;
+  border: 2px solid #6ec1e4;
+  background: #fff;
 }
